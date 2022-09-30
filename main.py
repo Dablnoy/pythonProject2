@@ -2,11 +2,11 @@ balance=0
 def deposit(amount):
     global balance
     balance += amount
-    return balance
+    return f"your balance {balance}"
 def withdraw(amount):
     global balance
     balance -= amount
-    return balance
+    return f"your balance {balance}"
 class Money:
     def __init__(self,amount):
         self.amount=amount
